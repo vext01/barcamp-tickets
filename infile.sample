@@ -1,0 +1,8 @@
+# lines beginning with comments are ignore
+# blank lines are ignored
+# fname,lname,role,company
+
+Jim,Barrett,Staff,University of Kent
+Martin,Blueberry,Sponsor,University of Kent
+Tristan,Sofapillow,Atendee,Sony Music
+Hannah,Remotecontrol,Staff,Mozilla Foundation
