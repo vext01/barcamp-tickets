@@ -60,7 +60,7 @@ names_fd.close()
 
 print("Making final %s/%s.pdf" % (OUTDIR, OUTPDF))
 cmd = (("pdfnup --outfile %s/%s --no-twoside --no-landscape --a4paper " + \
-        "--noautoscale true --offset '0em -12cm' --nup 2x8 --frame true --scale 1 --quiet out/*.pdf") % (OUTDIR, OUTPDF))
+        "--noautoscale true --offset '0em -12cm' --nup 2x8 --scale 1 --quiet out/*.pdf") % (OUTDIR, OUTPDF))
 print(cmd)
 os.system(cmd)
 print("Done")
