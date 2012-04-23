@@ -6,6 +6,7 @@ import os
 import os.path
 
 OUTDIR = "out"
+OUTPDF = "all.pdf"
 
 if len(sys.argv) != 2:
     print("usage: mk_tickets.py <infile>")
@@ -24,6 +25,10 @@ if os.path.exists(OUTDIR):
     sys.exit(1)
 os.mkdir(OUTDIR)
 
+roles = { "ST" : "Staff",
+          "SP" : "Sponsor",
+          "AT" : "Attendee" }
+
 # iterate names making tickets
 names_fd = open(sys.argv[1], "r")
 for line in names_fd:
@@ -31,6 +36,7 @@ for line in names_fd:
         continue
 
     (fname, lname, role, company) = line.split(",")
+    role = roles[role]
     copy_buf = copy.copy(svg_buf)
 
     outfile_name = "%s/%s-%s_%s" % (OUTDIR, role, lname, fname)
@@ -51,3 +57,10 @@ for line in names_fd:
             (outfile_name, outfile_name))
     
 names_fd.close()
+
+print("Making final %s/%s.pdf" % (OUTDIR, OUTPDF))
+cmd = (("pdfnup --outfile %s/%s --no-twoside --no-landscape --a4paper " + \
+        "--noautoscale true --offset '0em -12cm' --nup 2x8 --frame true --scale 1 --quiet out/*.pdf") % (OUTDIR, OUTPDF))
+print(cmd)
+os.system(cmd)
+print("Done")

@@ -1,8 +1,14 @@
 # lines beginning with comments are ignore
 # blank lines are ignored
 # fname,lname,role,company
+# role: ST = staff, SP = sponsor, AT = attendee
 
-Jim,Barrett,Staff,University of Kent
-Martin,Blueberry,Sponsor,University of Kent
-Tristan,Sofapillow,Atendee,Sony Music
-Hannah,Remotecontrol,Staff,Mozilla Foundation
+Jim,Barrett,ST,University of Kent
+Martin,Blueberry,SP,University of Kent
+Tristan,Sofapillow,AT,Sony Music
+Hannah,Remotecontrol,ST,Mozilla Foundation
+Bill,Benson,AT,BBC News
+Gary,Spanish,SP,XMOS
+Jibble,Flibble,ST,Oh Hai Magazine
+Jimmy,Saville,AT,SEGA
+
