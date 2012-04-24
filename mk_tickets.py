@@ -31,6 +31,8 @@ roles = { "ST" : "Staff",
 
 # iterate names making tickets
 names_fd = open(sys.argv[1], "r")
+count = 0
+
 for line in names_fd:
     if line.startswith("#") or len(line.strip()) == 0:
         continue
@@ -53,9 +55,9 @@ for line in names_fd:
     out_fd.close()
 
     # convert to pdf
-    os.system("inkscape --export-pdf=%s.pdf %s.svg" % \
-            (outfile_name, outfile_name))
-    
+    os.system("inkscape --export-pdf=\"%s-%d.pdf\" %s.svg" % \
+            (outfile_name, count, outfile_name))
+    count = count + 1
 names_fd.close()
 
 print("Making final %s/%s.pdf" % (OUTDIR, OUTPDF))

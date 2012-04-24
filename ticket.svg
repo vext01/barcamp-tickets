@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="319.60348"
-     inkscape:cy="16.565636"
+     inkscape:zoom="3.6544118"
+     inkscape:cx="188.73142"
+     inkscape:cy="176.61747"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="mm"
-     inkscape:window-width="1020"
-     inkscape:window-height="558"
+     inkscape:window-width="1270"
+     inkscape:window-height="1027"
      inkscape:window-x="0"
-     inkscape:window-y="18"
+     inkscape:window-y="19"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -133,20 +133,22 @@
          id="tspan3427">!!LNAME!!</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Gothic;-inkscape-font-specification:Century Gothic"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Gothic;-inkscape-font-specification:Century Gothic"
        x="308.26773"
-       y="931.88977"
+       y="935.43311"
        id="bc:role"
        sodipodi:linespacing="100%"
        inkscape:label="#text3429"><tspan
          sodipodi:role="line"
          id="tspan3431"
          x="308.26773"
-         y="931.88977">!!ROLE!!</tspan><tspan
+         y="935.43311"
+         style="font-size:24px;letter-spacing:0px">!!ROLE!!</tspan><tspan
          sodipodi:role="line"
          x="308.26773"
-         y="951.88977"
-         id="tspan4229">!!COMPANY!!</tspan></text>
+         y="959.43311"
+         id="tspan4229"
+         style="font-size:24px;letter-spacing:0px" /></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 170.07874,914.17323 138.18898,0"
@@ -178,5 +180,34 @@
        x="0"
        y="-6.0073971e-06"
        transform="translate(0,839.76379)" />
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3005"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3007"><rect
+           id="rect3009"
+           width="126.93207"
+           height="93.6511"
+           x="7.7397604"
+           y="118.17334" /></flowRegion><flowPara
+         id="flowPara3011"></flowPara></flowRoot>    <rect
+       id="rect3015"
+       width="201.96851"
+       height="74.409477"
+       x="106.29921"
+       y="938.97638"
+       style="fill:none" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3021"><flowRegion
+         id="flowRegion3023"><use
+           x="0"
+           y="0"
+           xlink:href="#rect3015"
+           id="use3025"
+           width="318.89764"
+           height="212.59842" /></flowRegion><flowPara
+         id="flowPara3027"
+         style="font-size:16px">!!COMPANY!!</flowPara></flowRoot>  </g>
 </svg>
